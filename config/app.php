@@ -185,6 +185,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Mindscms\Entrust\EntrustServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -212,4 +213,5 @@ return [
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
+    'Entrust'   => Mindscms\Entrust\EntrustFacade::class,
 ];
